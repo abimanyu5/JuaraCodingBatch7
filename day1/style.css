@@ -1,0 +1,12 @@
+h1 {
+  color: rgb(192, 23, 23);
+}
+#calculator {
+  text-align: center;
+}
+body {
+  background-color: darkolivegreen;
+}
+#button{
+    background-color: #008CBA;
+}

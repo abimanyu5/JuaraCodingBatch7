@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="sayurbuah">
+        <p>masukkan buah atau sayur</p>
+        <label for="fname">input item:</label>
+        <input type="text" id="inputBuahSayur" /><br><br>
+        masukan jenis item
+        <select id="jenisItem">
+            <option value="buah">buah-buahan</option>
+            <option value="sayur">sayur-sayuran</option>
+        </select>
+        <button id="tambah" onclick="tambahItem(document.getElementById('inputBuahSayur').value,document.getElementById('jenisItem').value)">tambah</button>
+    </div>
+
+
+    <div id="sayurbuah">
+        <label for="fname">Tambahkan buah</label>
+        <input type="text" id="inputBuah" />
+        <button id="tambahBuah" onclick="tambahBuah(document.getElementById('inputBuah').value)">tambah</button>
+        <P>jenis buah:</P>
+        <div id="buah"><br><br>
+        </div>
+
+    </div>
+
+    <div id="sayurbuah">
+        <label for="fname">Tambahkan sayur</label>
+        <input type="text" id="inputsayur" />
+        <button id="tambahSayur" onclick="tambahSayur(document.getElementById('inputsayur').value)">tambah</button>
+        <P>jenis sayuran:</P>
+        <div id="sayuran"><br><br>
+        </div>
+
+    </div>
+
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
