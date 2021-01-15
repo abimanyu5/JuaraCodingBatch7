@@ -1,0 +1,35 @@
+<html>
+<head>
+    
+<title>Matrix Identitas Java Script</title>
+<script>
+function idnt(i){
+var bill = i.value;
+
+for(n=0;n<bill;n++){
+for(m=0;m<bill;m++){
+if(n == m){
+document.write("1");
+}
+
+else{
+document.write("0");
+}
+}
+document.write("<br />");
+}
+}
+</script>
+<style>
+    table, th, td {
+      border: 1px solid black;
+    }
+    </style>
+</head>
+<body>
+<form>
+<input type="text" name="inp" id="inp" />
+<input type="button" value="Tampil !" onclick="idnt(document.getElementById('inp'))" />
+</form>
+</body>
+</html>
